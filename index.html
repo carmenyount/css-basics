@@ -7,12 +7,41 @@
         <style>
             h1 {
                 color: blueviolet;
+                border-style: solid;
+                border-width: 1px;
+                border-color: blueviolet;
             }
             p {
                 color: red;
             }
-            body {
+            .purple-text {
+                color: rgba(150, 0, 255, .25);
+            }
+            .important {
+                font-weight: bold;
+            }
+            p.important {
+                width: 75%;
+            }
+            #lead-paragraph {
+                color: purple;
+                font-weight: bold;  
+            }
+            .important:hover {
+                background-color: #0000FF;
+            }
+            a[href="https://www.instagram.com/carmenyount/"] {
+                background-color: lightskyblue;
+                padding: 1rem;
+            }
+            a[href="https://www.twitter.com/carmenyount/"] {
                 background-color: dodgerblue;
+            }
+            img {
+                border-style: dashed;
+                border-color: rgba(255, 0, 208, 0.75);
+                border-width: 3px;
+                width: 25%;
             }
 
 
@@ -21,7 +50,12 @@
 
 <body>
     <h1>Clever Headline Here</h1>
-    <p>Everything is fine!</p>
+    <p class="purple-text">Everything is fine!</p>
+    <p class="important purple-text">This is important text.</p>
+    <p id="lead-paragraph">The world is a happy and sensible place.</p>
+    <p><a href="https://www.instagram.com/carmenyount/">My IG</a></p>
+    <p><a href="https://www.twitter.com/carmenyount/">My Twitter</a></p>
+    <img src="052023-iced-coffee.jpg" alt="photo of iced mocha on desk">
 
 </body>
 
