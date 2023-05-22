@@ -1,0 +1,17 @@
+ 
+            img {
+                width: 25%;
+                border-style: dashed;
+                border-color: orange;
+                border-width: 3px;
+
+            }
+            p {
+                color: dodgerblue;
+            }
+            .purple-text {
+                color: purple;
+            }
+            p {
+                color: orange;
+            }
